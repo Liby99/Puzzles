@@ -26,6 +26,32 @@ need to test it out for floor 51 to 100. So overall you will need to throw
 roughly 50 times, which is much smaller than 100. But there is definitely
 better solutions. Use your smart brain to find out!
 
+## Compile and Run the Sample Code
+
+First, use `Makefile` provided in the directory
+
+```
+$ make
+```
+
+If you want to find out the answer for 100-floor-building (which is the default)
+
+```
+$ ./a.out
+```
+
+If you want to specify a building height
+
+```
+$ ./a.out [HEIGHT]
+```
+
+Example:
+
+```
+$ ./a.out 30
+```
+
 ## Solution
 
 > Ignore this part if you want to do your own solution!
